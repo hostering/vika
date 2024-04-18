@@ -122,3 +122,19 @@ tbody tr:nth-child(odd) {
 tbody tr:hover {
     background-color: #FFA07A;
 }
+
+.groove {
+    border-style: groove;
+    border-width: 8px;
+    border-color: #8B4513;
+}
+.ridge {
+    border-style: ridge;
+    border-width: 8px;
+    border-color: #BDB76B;
+}
+.outset {
+    border-style: outset;
+    border-width: 8px;
+    border-color: #A52A2A;
+}
