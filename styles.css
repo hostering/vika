@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 header {
-    background: #333;
+    background: #000000;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -68,7 +68,7 @@ a:hover:after {
 header nav ul li a, .button {
     color: #fff;
     text-decoration: none;
-    background: #555;
+    background: #0f0f0f;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
@@ -77,7 +77,7 @@ header nav ul li a, .button {
 section {
     padding: 20px;
     margin: 0 10px;
-    background: white;
+    background: #0f0f0f;
     border: 1px solid #ddd;
 }
 
@@ -88,7 +88,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: #0f0f0f;
     color: #fff;
 }
 
