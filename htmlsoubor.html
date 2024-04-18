@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIKA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>𝓥𝓲𝓬𝓽𝓸𝓻𝓲𝓪</h1> 
+        <h1>🍉  🎀</h1>
+        <nav>
+           <ul>
+                <li><a href="#about" class="button">O mně</a></li>
+                <li><a href="#projects" class="button">Projekty</a></li>
+                <li><a href="#contact" class="button">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>O mně</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas aliquet accumsan leo. Aliquam in lorem sit amet leo accumsan lacinia. Vestibulum fermentum tortor id mi. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Vivamus ac leo pretium faucibus. Quisque porta. </p>
+    </section>
+<section id="projects">
+        <h2>Projekty</h2>
+        <div class="project">
+            <h3>TABULKA</h3>
+            <p>Tabluka obsahující záhlaví, sudé řádky má světle modré a liché řádky má tmavěji modré. Při najetí myší na některý z řádků se řádek zabarví oranžovou barvou.</p>
+            <button class="button" onclick="toggleProjectVisibility('project1')">Zobrazit projekt</button>
+            <div id="project1" style="display: none;">
+               <!DOCTYPE html>
+<html lang="cs">
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Pořadí</th>
+                <th>Jméno</th>
+                <th>Příjmení</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Honza</td>
+                <td>Novák</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Petr</td>
+                <td>Dvořák</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Martin</td>
+                <td>Krátký</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Lucie</td>
+                <td>Dlouhá</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+            </div>
+        </div>
+        <div class="project">
+            <h3>PROJEKT 2 - PŘEDLOHA</h3>
+            <p>Popis projektu 2</p>
+            <button class="button" onclick="toggleProjectVisibility('project2')">Zobrazit projekt</button>
+            <div id="project2" style="display: none;">
+                <p>kód pro projekt 2</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas aliquet accumsan leo. Aliquam in lorem sit amet leo accumsan lacinia.</p>
+    </section>
+    <footer>
+        <p>© 2024 𝓥𝓲𝓬𝓽𝓸𝓻𝓲𝓪</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

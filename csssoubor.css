@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a, .button {
+    color: #fff;
+    text-decoration: none;
+    background: #555;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover, .button:hover {
+    background-color: #777;
+    color: #ddd;
+}
+
+section {
+    padding: 20px;
+    margin: 0 10px;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Responsive design can be added here */
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: gray;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #4d91ff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #0062ff;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #FFA07A;
+}
